@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		<link rel="stylesheet" type="text/css" href="Registrarse.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<title>MediApp</title>
+	</head>
+	<body>
+		<div class="banner">
+			<ul>
+				<a href="index.html"><img  class="imag" src="imagenes/MediApp_1.png" ></a>
+				<div class="link">
+					<a class="stylelink" href="IniciarSesion.html">Iniciar sesion</a>
+					<a class="stylelink2" href="Registrarse.html">Registrarse</a>
+					<a class="stylelink3" href="Contacto.html">Contacto</a>
+				</div>
+			</ul>
+			
+		</div>
+		<div class="box">
+				<center><h1 id="TitleIniciarSesion">Registrarse</h1></center>
+				<form>
+					<label>Nombre</label>
+					<input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required="">
+					<label>Apellido</label>
+					<input type="text" id="apellido" name="apellido" placeholder="Apellido" required="">
+					<label>Documento</label>
+					<select >
+						<option>-Ninguno-</option>
+						<option>C.Ciudadania</option>
+						<option>C.Extrajero</option>
+						<option>T.Identidad</option>
+					</select>
+					<input type="number" name="Documento" placeholder="N° Documento" required="">
+					<label>E-mail</label>
+					<input type="email" name="email" placeholder="email@email.com" required="">
+					<label>Ciudad</label>
+					<select>
+						<option>-Ninguno-</option>
+						<option>Yopal</option>
+						<option>Bogota</option>
+					</select>
+					<label>Telefono</label>
+					<input type="tel" name="Telefono" placeholder="Numero de Telefono" required="">
+					<label>Fecha de Nacimiento</label>
+					<input type="date" name="edad" placeholder="Fecha de Nacimiento" required="">
+					<input type="submit" name="Registrarse" value="Registrarse" required="">
+				</form>
+			</div>
+	</body>
+</html>

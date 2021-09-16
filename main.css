@@ -1,0 +1,285 @@
+body{
+	background-color: white;
+}
+
+
+
+
+.banner{
+	background-color: #38B6FF;
+	height: 80px;
+	margin: -10px;
+	margin-top: -20px;
+	box-shadow: 0px 0px 10px gray;
+
+
+}
+
+
+
+
+
+.banner img{
+	margin-left: 20px;
+	height: 40px;
+	padding: 20px;
+}
+
+.link{
+	margin-top: -50px;
+	margin-left: 300px;
+
+}
+a{
+	color: white;
+
+}
+
+.stylelink{
+	padding: 28px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 700;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-shadow: 1px 1px 2px white;
+}
+
+.stylelink2{
+	padding: 28px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 700;
+	margin-left: 0px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-shadow: 1px 1px 2px white;
+
+}
+
+.stylelink3{
+	padding: 28px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 700;
+	margin-left: 0px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-shadow: 1px 1px 2px white;
+
+}
+
+
+
+
+
+.stylelink:hover{
+	background-color: #00A1FF;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px black;
+}
+
+.stylelink2:hover{
+	background-color: #00A1FF;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px black;
+}
+
+.stylelink3:hover{
+	background-color: #00A1FF;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+
+.principal{
+	padding: 100px;
+	font-family: sans-serif;
+
+}
+
+
+#primero{
+	font-size: 60px;
+	margin-top: -10px;
+	margin-bottom: -5px;
+	text-shadow: 1px 1px 2px black;
+}
+
+#segundo{
+	margin-top: 30px;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 2px black;
+}
+
+.busqueda{
+	margin-top: -100px;
+}
+
+#placeholder{
+	margin-top: 50px;
+	width:  600px;
+	height: 40px;
+	text-align: center;
+	color:  black;
+	font-size: 1.3em;
+	border: black 1.2px solid;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px gray;
+
+
+}
+
+#placeholder:hover{
+	background-color: #ECE3E2;
+	border: black 1.7px solid;
+}
+
+#placeholder:focus{
+	border: black 1.7px solid;
+	outline: none;
+}
+
+#enviar{
+	height: 40px;
+	width: 150px;
+	background-color: #38B6FF;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0px 1px 10px gray;
+}	
+
+#enviar:hover{
+	background-color: #ffffff;
+	color: black;
+	border: black 1.7px solid;
+	cursor: pointer;
+
+}
+
+#minititulo{
+	font-family: sans-serif;
+	margin-left: -120px;
+	font-size: 13px;
+	color: #2F2F31;
+	margin-top: 5px;
+}
+
+.div2{
+	background-color: #38B6FF;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -30px;
+	box-shadow: 0px 0px 10px gray;
+}
+
+#imag1{
+	height: 550px;
+	width: 500px;
+	float: left;
+	margin:  100px;
+	margin-left: 150px;
+	padding: 20px;
+	border-radius: 33px;
+}
+
+#imag2{
+	height: 250px;
+	width: 200px
+	float: right;
+	margin: 100px;
+	margin-top: 90px;
+	margin-bottom: -90px;
+	padding: 30px;
+	border-radius: 33px;
+}
+
+#imag3{
+	height: 250px;
+	width: 200px
+	float: right;
+	margin:  100px;
+	margin-top: 70px;
+	padding: 30px;
+	border-radius: 33px;
+}
+.div{
+	background-color: #38B6FF;
+	margin-top: 70px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 10px gray;
+
+}
+
+.titulo2{
+	padding: 50px;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 2px 1px 2px white;
+
+}
+
+#imag4{
+	width: 200px;
+	float: left;
+	margin-left: 200px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px white;
+	
+}
+
+#imag5{
+	width: 200px;
+	height: 150px;
+	margin-left: 180px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px white;
+}
+
+#imag6{
+	width: 200px;
+	height: 150px;
+	float: right;
+	margin-right: 200px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px white;
+}
+
+#Vermas{
+	margin: 100px;
+	margin-left: 600px;
+	height: 50px;
+	width: 150px;
+	border-radius: 40px;
+	background-color: #38B6FF;
+	color: white;
+	border: white 2.5px solid;
+	font-size: 15px;
+	font-family: sans-serif; 
+	cursor: pointer;
+	font-weight: 600;
+
+}
+
+#Vermas:hover{
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	width: 155px;
+	border: #00A1FF 2.5px solid;
+	box-shadow: 0px 0px 10px gray;
+}
+
+#Vermas:active{
+	background-color: #00A1FF;
+	color: black;
+	border: black 2px solid;
+}
+
+
